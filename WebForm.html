@@ -35,13 +35,15 @@
                     Phone: <input type="text" name="Phone" size="20" maxlength="40" />
                 </label>
             </fieldset>
+            
             <br />
+            
             <fieldset>
                 <legend>
                     Room Information
                 </legend>
                 <label>
-                    Arrival Date: <input type="date" name="Arrival" />
+                    Arrival Date: <input type="date" name="ArrivalDate" />
                 </label>
                 <br />
                 <label>
@@ -67,18 +69,22 @@
                 <br />
                 <label>
                     Number of guests (the maximum guests is 3): 
-                    <select name="select" size="1" STYLE="width:3;" multiple="multiple">
                 </label>
             </fieldset>
+            
             <br />
+            
             <fieldset>
                 <legend>
                     Other Information
                 </legend>
                 <label>
-                    Promo Code: <input type="text" size="8" maxlength="4" pattern="[0-9][a-z][A-Z]{4}"/>
+                    Promo Code: <input type="text" size="8" maxlength="4" />
                 </label>
-                <label></label>
+                <br />
+                <label>
+                    Special Note: <textarea name="specialNote" cols="40" rows="5">Enter your special notes here</textarea>
+                </label>
             </fieldset>
             <input type="reset" value="Clear form" />
             <input type="submit" value="Request Reservation" />
