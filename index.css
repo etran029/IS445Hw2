@@ -1,0 +1,22 @@
+﻿body { 
+	background: #ffffff; 
+    width: 750px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#menu { 
+	display: none; 
+} 
+
+#wrapper, 
+#content { 
+	width: auto; margin: 0 5%; 
+	padding: 0; 
+	border: 0; 
+	float: none !important; 
+	color: black; 
+	background: transparent; 
+}
