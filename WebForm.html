@@ -42,7 +42,6 @@
                 </legend>
                 <label>
                     Arrival Date: <input type="date" name="Arrival" />
-                    <input type="submit" value="Submit" />
                 </label>
                 <br />
                 <label>
@@ -51,7 +50,7 @@
                 <br />
                 <label>
                     Select a room type: 
-                    <select name="room">
+                    <select name="room" id="room">
                         <option value="luxury">Luxury</option>
                         <option value="standard">Standard</option>
                         <option value="economic">Economic</option>
@@ -60,10 +59,15 @@
                 <br />
                 <label>
                     Number of nights (valid number is from 1 to 30): 
+                    <select name="numberOfNights" data-="1">
+                        <option value>1</option>
+                        <option value ="1">1</option>
+                    </select>
                 </label>
                 <br />
                 <label>
                     Number of guests (the maximum guests is 3): 
+                    <select name="select" size="1" STYLE="width:3;" multiple="multiple">
                 </label>
             </fieldset>
             <br />
@@ -72,7 +76,7 @@
                     Other Information
                 </legend>
                 <label>
-                    Promo Code: <input type="text" 
+                    Promo Code: <input type="text" size="8" maxlength="4" pattern="[0-9][a-z][A-Z]{4}"/>
                 </label>
                 <label></label>
             </fieldset>
